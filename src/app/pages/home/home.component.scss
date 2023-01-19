@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    width:100%;
+    // height: 100vh;
+}
+
+h3{
+    margin:20px 0px 10px 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    color:white;
+}
+
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+    filter: opacity(10%) blur(2px);
+    
+}

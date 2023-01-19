@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="anime" *ngFor="let anime of animeList">
+        <div class="title-div">
+            <h3>{{anime.attributes.canonicalTitle}}</h3>
+        </div>
+        <img src="{{anime.attributes.posterImage.original}}"/>
+    </div>
+</div>
